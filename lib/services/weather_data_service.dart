@@ -25,6 +25,7 @@ class WeatherDataService {
     }
 
     print('Url: ${Uri.encodeFull(finalUrl)}');
+    print("Data service");
 
     if (response.statusCode == 200) {
       print('Weather data: ${response.body}');
